@@ -24,9 +24,9 @@ At the company managing your domain's DNS, enter these website records:
 | A | @ | 185.199.109.153 |
 | A | @ | 185.199.110.153 |
 | A | @ | 185.199.111.153 |
-| CNAME | www | YOUR-GITHUB-USERNAME.github.io |
+| CNAME | www | tanaka-ctrlv.github.io |
 
-For the last row, replace `YOUR-GITHUB-USERNAME` with your actual GitHub username. Use the account's Pages hostname, with no `https://` or repository path. The exact screens and handling of existing records depend on your DNS provider; review the current records before replacing a website target.
+The last row uses the Pages hostname for your GitHub account, with no `https://` or repository path. The exact screens and handling of existing records depend on your DNS provider; review the current records before replacing a website target.
 
 These values are for GitHub Pages. Once you choose GitHub as the host, use these rather than the DNS targets for the earlier ChatGPT-hosted copy.
 

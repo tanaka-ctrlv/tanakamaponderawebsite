@@ -14,6 +14,9 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
 .masthead p { margin: 0; }
 .wordmark { font-size: 26px; font-weight: 700; letter-spacing: -.07em; text-decoration: none; }
 .wordmark span { margin-left: 4px; color: var(--accent); }
+/* Vector symbols keep their shape and current text color on every device. */
+.icon-arrow { display: inline-block; width: .84em; height: 1em; vertical-align: -.14em; flex-shrink: 0; }
+.asterisk svg { display: block; width: .78em; height: .78em; margin: .15em .03em .07em; }
 .header-email { padding: 4px 0; text-decoration: none; }
 .header-email:hover { color: var(--accent); }
 .title-row { position: relative; padding: 30px 0 38px; }

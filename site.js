@@ -28,7 +28,11 @@ for (const project of projects) {
     content.append(image);
   }
   const title = document.createElement('h3');
-  title.textContent = project.title + (url ? ' ↗' : '');
+  title.textContent = project.title;
+  if (url) {
+    const arrow = document.querySelector('.wordmark .icon-arrow').cloneNode(true);
+    title.append(' ', arrow);
+  }
   content.append(title);
   article.append(content);
   const meta = document.createElement('p');
